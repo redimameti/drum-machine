@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.module.scss";
+import Navbar from "./components/Navbar/Navbar";
+import {useEffect, useState} from "react";
+import Kit from "./containers/Kit/Kit";
+import samples from "./data/samples";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [sounds, setSounds] = useState([]);
+  
+	useEffect(() => {
+		setSounds(samples);
+	}, []);
+
+	return (
+		<div className={styles.App}>
+			<Navbar />
+			<Kit sounds={sounds} />
+		</div>
+	);
 }
 
 export default App;

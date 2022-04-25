@@ -1,0 +1,44 @@
+@import "./../../assets/palette.scss";
+@import "./../../assets/fonts.scss";
+
+.Drum {
+	&__Container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		&__Button {
+			background-color: $white;
+			color: $black;
+			width: 100px;
+			height: 100px;
+			border-radius: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 10px;
+			font-family: $primary;
+			text-transform: lowercase;
+			font-size: 3em;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			&__Playing {
+				transform: scale(1.1);
+			}
+		}
+		&__Button:active {
+			transform: scale(1.1);
+		}
+		&__Button:hover {
+			transition: 0.3s;
+			background-color: $white-transparent;
+		}
+		&__Name {
+			text-align: center;
+			text-transform: lowercase;
+			margin: 0px 10px;
+		}
+	}
+}

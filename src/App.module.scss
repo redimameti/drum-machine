@@ -1,0 +1,13 @@
+@import "./assets/palette.scss";
+@import "./assets/fonts.scss";
+
+::selection {
+  background: $highlight;
+}
+
+.App {
+	margin: 0px;
+	background-color: $black;
+	height: 100vh;
+	font-family: $primary;
+}

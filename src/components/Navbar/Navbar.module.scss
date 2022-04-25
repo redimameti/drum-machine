@@ -1,0 +1,33 @@
+@import "./../../assets/palette.scss";
+@import "./../../assets/fonts.scss";
+
+.Navbar {
+	width: 100vw;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__Container {
+		width: 100%;
+		max-width: 1250px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 20px;
+		&__Logo {
+			height: 50px;
+		}
+		&__Links {
+			color: $white;
+			display: flex;
+			align-items: center;
+			a {
+				font-family: $primary;
+				padding: 0px 15px;
+				text-align: center;
+				color: $white;
+				text-decoration: none;
+				cursor: not-allowed;
+			}
+		}
+	}
+}
