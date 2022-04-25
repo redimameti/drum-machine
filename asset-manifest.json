@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/drum-machine/static/css/main.2cecc48a.css",
+    "main.js": "/drum-machine/static/js/main.d4c072b2.js",
+    "static/js/787.c419f7a1.chunk.js": "/drum-machine/static/js/787.c419f7a1.chunk.js",
+    "static/media/tom.wav": "/drum-machine/static/media/tom.01d878ba842cb2d9609a.wav",
+    "static/media/open-hat.wav": "/drum-machine/static/media/open-hat.f94f96bffec535afce7b.wav",
+    "static/media/snare.wav": "/drum-machine/static/media/snare.3d5b503ae3ffd5172068.wav",
+    "static/media/kick.wav": "/drum-machine/static/media/kick.509a3047f6578b700b9e.wav",
+    "static/media/closed-hat.wav": "/drum-machine/static/media/closed-hat.4f13ff80e3c1ad882ff5.wav",
+    "static/media/clap.wav": "/drum-machine/static/media/clap.ce900987da01c85d0b0c.wav",
+    "static/media/perc.wav": "/drum-machine/static/media/perc.d8b427d3a79a0937eed5.wav",
+    "static/media/rim.wav": "/drum-machine/static/media/rim.f9868af966d9758186dd.wav",
+    "static/media/stereolust-logo.png": "/drum-machine/static/media/stereolust-logo.a221f7315ebcaf4bcb99.png",
+    "index.html": "/drum-machine/index.html",
+    "main.2cecc48a.css.map": "/drum-machine/static/css/main.2cecc48a.css.map",
+    "main.d4c072b2.js.map": "/drum-machine/static/js/main.d4c072b2.js.map",
+    "787.c419f7a1.chunk.js.map": "/drum-machine/static/js/787.c419f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cecc48a.css",
+    "static/js/main.d4c072b2.js"
+  ]
+}
