@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Drum Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Live link:
 
-## Available Scripts
+-   https://redimameti.github.io/drum-machine/
 
-In the project directory, you can run:
+![screen capture of application](screencap.png)
 
-### `npm start`
+### Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Simply press the correlating keyboard buttons for the drum sound you'd like to play, then, cook up a fire beat.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The idea
 
-### `npm test`
+As of deploying this app I'm 2/3rds of the way through a coding bootcamp to become a full stack developer.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've also been an avid music producer/fanatic for about 6 years, so this project serves as a way to combine an existing passion and hobby with my current career pathway.
 
-### `npm run build`
+I decided to title the page Stereolust as a placeholder brand name (although, it's growing on me so I might keep it).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+It will be for future audio-related programming projects I have in mind. I'd like to learn C++ and the JUCE framework to create audio plugins one day, so this is a tiny way I'm laying groundwork for then.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Implementation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I couldn't find a tutorial for exactly what I had in mind, as I wanted to use React for future re-usability of components in case I decide to add different sound kits or make other changes (most tutorials I found were in Javascript).
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I created the components first, then looked through a few Drum machine Javascript tutorials to fill in some knowledge gaps (this is my first time forraying into working with any audio inside an IDE).
